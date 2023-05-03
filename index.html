@@ -4,16 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <footer class="footer">
-      <p class="footer-copyright">
-        @ 2023 | All right is reserved | Developed with
-      </p>
-      <svg><use href="some-id" xlink:href="some-id" x="5" y="5" /></svg>
-      <p class="footer-copyright">by</p>
-      <p>GoIT Students</p>
+      <div class="container">
+        <div class="footer-container">
+        <p class="footer-copyright">
+          @ 2023 | All right is reserved |
+        </p>
+        <div class="footer-students">
+
+        
+        <p class="footer-copyright">
+          Developed with
+        </p>
+        <svg class="footer-svg">
+          <use
+            href="./src/sprite.svg#icon-heart_with_border"
+            width="32"
+            height="32"
+          ></use>
+        </svg>
+        <p class="footer-copyright">by</p>
+        <p>GoIT Students</p>
+        </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

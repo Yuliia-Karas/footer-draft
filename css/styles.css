@@ -1,0 +1,59 @@
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+body {
+    font-size: 10px;
+}
+
+footer {
+    display: block;
+}
+
+.footer-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 12px;
+}
+
+.footer-students {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-svg {
+    width: 32px;
+    height: 32px;
+}
+
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 768px;  
+    padding: 0 32px;
+}
+
+}  
+
+@media screen  and (min-width:544px){
+    .footer-container {
+        flex-direction: row;
+        gap: 3px;
+    }
+    
+}
+
+@media screen and (min-width:769px) {
+ .container {
+    max-width: 1280px;
+ }   
+    
+}
+
